@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lash Blog | Extensão de Cílios</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #fcf8f7;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #f4dcd6;
+            text-align: center;
+            padding: 2rem 1rem;
+            border-bottom: 2px solid #e8beac;
+        }
+
+        header h1 {
+            color: #4a3b32;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            color: #7a6356;
+            font-style: italic;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .blog-post {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-bottom: 2rem;
+        }
+
+        .blog-post h2 {
+            color: #4a3b32;
+            margin-bottom: 1rem;
+            border-left: 5px solid #e8beac;
+            padding-left: 10px;
+        }
+
+        .model-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .model-card {
+            background: #fafafa;
+            border: 1px solid #eee;
+            border-radius: 6px;
+            overflow: hidden;
+            transition: transform 0.2s;
+        }
+
+        .model-card:hover {
+            transform: translateY(-5px);
+        }
+
+        /* Espaço reservado para as imagens realistas */
+        .model-img {
+            width: 100%;
+            height: 200px;
+            background-color: #ddd;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .card-content {
+            padding: 1rem;
+        }
+
+        .card-content h3 {
+            color: #7a6356;
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background-color: #4a3b32;
+            color: white;
+            margin-top: 4rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Universo das Lash Designers</h1>
+        <p>Seu guia definitivo sobre extensões, estilos e tendências de cílios</p>
+    </header>
+
+    <div class="container">
+        <article class="blog-post">
+            <h2>Guia de Modelos: Qual o Cílios Perfeito para Você?</h2>
+            <p>A extensão de cílios não é um procedimento único para todas. Cada olhar exige um mapeamento (mapping) exclusivo para realçar a beleza natural dos olhos. Abaixo, separamos os modelos mais pedidos nos estúdios para você se inspirar.</p>
+            
+            <div class="model-grid">
+                
+                <div class="model-card">
+                    <div class="model-img" style="background-image: url('https://images.unsplash.com/photo-1583001931096-959e9a1a54fa?auto=format&fit=crop&q=80&w=600');"></div>
+                    <div class="card-content">
+                        <h3>Efeito Fio a Fio Natural</h3>
+                        <p>A técnica mais clássica. É aplicado um fio sintético sobre cada fio natural. O resultado é super realista, ideal para o dia a dia e para quem busca apenas um "up" com efeito de rímel.</p>
+                    </div>
+                </div>
+
+                <div class="model-card">
+                    <div class="model-img" style="background-image: url('https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&q=80&w=600');"></div>
+                    <div class="card-content">
+                        <h3>Volume Russo</h3>
+                        <p>Para quem ama impacto e preenchimento. São criados pequenos "fans" (tufinhos artesanais de 3 a 6 fios bem finos) colocados em cada cílio. Deixa o olhar marcante, preto e volumoso.</p>
+                    </div>
+                </div>
+
+                <div class="model-card">
+                    <div class="model-img" style="background-image: url('https://images.unsplash.com/photo-1600334129128-685c5582fd35?auto=format&fit=crop&q=80&w=600');"></div>
+                    <div class="card-content">
+                        <h3>Efeito Molhado (Wet Look)</h3>
+                        <p>A grande tendência do momento! Utiliza fios fechados que simulam o visual dos cílios logo após o banho ou com rímel fresco. Dá um brilho lindo e moderno ao olhar.</p>
+                    </div>
+                </div>
+
+            </div>
+        </article>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Blog Lash Elegance - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
